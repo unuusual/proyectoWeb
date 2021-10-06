@@ -49,6 +49,7 @@ body{
 }
 
 
+
 #oficina h2{
     display: flex;
     justify-content: center;
@@ -59,6 +60,7 @@ body{
     background: #e6d6c2;
     font-size: 20px;
     margin-top: 3px;
+
     
 }
 
@@ -86,6 +88,7 @@ body{
 
 #oficina #img{
     display: flex;
+    justify-content: center;
     background: #001219;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -94,7 +97,6 @@ body{
 #oficina #img img{
     width: 500px;
     height: 300px;
-    margin-left: 50px;
     border-radius: 8px;
     border: 2px solid #e9d8a6;
 }
@@ -106,7 +108,6 @@ body{
 #oficina #img ul{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
     margin-top: 13px;
     color: white;
     align-items: right;
@@ -117,7 +118,34 @@ body{
     margin-top: 7px;
 }
 
+#oficina #texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+#texto #textitos{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #e9d8a6;
+    
+}
+
+.iframe iframe{
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #e9d8a6;
+    box-shadow: 0px 0px 30px black;
+    width: 300px;
+    height: 150px;
+}
+
+#texto #textitos li a{
+    text-decoration: none;
+    color: white;
+}
 
 #proximosCursos{
     display: flex;
@@ -161,9 +189,6 @@ body{
 .est-todos{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 40px;
-    margin-top: 45px;
 }
 
 
@@ -172,7 +197,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
@@ -185,6 +211,7 @@ body{
     border-radius: 8px;
     margin-bottom: 20px;
     border: 2px solid #e9d8a6;
+    margin-top: 30px;
 }
 
 
