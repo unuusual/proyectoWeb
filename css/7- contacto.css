@@ -48,10 +48,22 @@ body{
     
 }
 
+#h2Infocontacto{
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #171717;
+    border: 2px solid #ee9b00;
+    background: #e6d6c2;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+
 #cajaGrande {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    padding: 60px;
 }
 
 #primeraCaja{
@@ -59,13 +71,15 @@ body{
     text-align:center;
 }
 
+
+
 #segundaCaja{
     width: calc(50% - 10px);
     text-align: center;
 }
 
 #segundaCaja .datosDeContactoTexto{
-    margin-top: 90px;
+    margin-top: 15px;
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -114,17 +128,18 @@ body{
 #segundaCaja h2{
     color: white;
     text-decoration: underline;
+    text-align: start;
 }
 
 #primeraCaja h2{
-    font-size: 21px;
+    font-size: 19px;
     color: white;
 }
 
 .cajitaTexto{
     background: rgb(200, 200, 200);
     border-radius: 12px;
-    width: 80%;
+    width: 65%;
     height: 30px;
     color: black;
     text-align: center;
@@ -136,7 +151,7 @@ body{
     background: rgb(200, 200, 200);
     border: 2px solid #e9c968;
     border-radius: 12px;
-    width: 75%;
+    width: 65%;
     height: 100px;
 }
 
