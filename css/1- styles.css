@@ -86,7 +86,7 @@ body{
 
 
 #circulos-todos div h4:hover{
-    background: #ee9b00;
+    background: #e9d8a6;
     transition: 300ms;  
 }
 
@@ -150,12 +150,29 @@ body{
     
 }
 
-#establecimientos .establecimientos h4{
-    display: flex;
-    color: #d4a373;
-    justify-content: center;
-    margin-top: 15px;
-} 
+
+.establecimientos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 85%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+}
+
+.establecimientos .centrado{
+    background-color: #e9d8a6;
+    border: 2px solid orange;
+    color: #001219;
+}
+
+.establecimientos img{
+    border: 2px solid #e9d8a6;
+}
 
 #iframe{
     display: flex;

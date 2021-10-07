@@ -165,15 +165,24 @@ body{
     color: #171717;
 }
 
+#ubicacionContacto .contenerIframe{
+    display: flex;
+}
 
-#ubicacionContacto .iframe iframe{
+#ubicacionContacto .iframe{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    border-radius: 10px;
+    width: 99%;
+    margin-bottom: 30px;
+}
+
+.iframe iframe{
     border: 2px solid #e9d8a6;
     box-shadow: 0px 0px 30px black;
-    width: 99%;
-    height: 200px;
-    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 75%;
+    height: 300px;
 }
 
 #boton{
