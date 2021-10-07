@@ -138,7 +138,6 @@ body{
     border-radius: 12px;
     width: 75%;
     height: 100px;
-    margin-bottom: 60px;
 }
 
 #ubicacionContacto{
@@ -160,6 +159,31 @@ body{
     width: 99%;
     height: 200px;
     margin-bottom: 30px;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+}
+
+#botoncito{
+    background: #001219;
+    color: white;
+    padding: 10px;
+    border-radius: 13px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#botoncito:hover{
+    transition: 300ms;
+    background-color: #e9d8a6;
+    color: #001219;
+    border-radius: 13px;
+    border: 3px solid orange;
+    box-shadow: 0px 0px 8px black;
 }
 
 
