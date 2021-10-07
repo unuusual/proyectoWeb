@@ -63,43 +63,75 @@ body{
 #textoHorario{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px; 
     color: white;
 }
 
-#CajaInscripcion #caja1{
+
+#cajaGrandeInscripcion {
+    display: flex;
+    padding: 40px;
+}
+
+#primeraCajaInscripcion{
+    width: calc(50% - 10px);
+    text-align:center;
+}
+
+#segundaCajaInscripcion{
+    width: calc(50% - 10px);
+    text-align:center;
+}
+
+#primeraCajaInscripcion h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#segundaCajaInscripcion h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cajitaTexto{
+    background: rgb(200, 200, 200);
+    border-radius: 12px;
+    width: 90%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 3px;
+    border: 2px solid #e9c968;
+}
+
+#boton{
     display: flex;
     justify-content: center;
-    line-height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #171717;
-    border: 2px solid #ee9b00;
-    background: #e6d6c2;
-    font-size: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px; 
 }
 
-#CajaInscripsion #InfoInscripcion{
-    display: flex;
-    margin-left: 20px;
-}
-
-#boton #elBoton{
+#botoncito{
     background: #001219;
     color: white;
     padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 4px black;
-    margin-bottom: 20px; 
-    margin-top: 20px;
-
+    border-radius: 13px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    cursor:pointer;
 }
 
-#boton #elBoton:hover{
+#botoncito:hover{
     transition: 300ms;
-    box-shadow: 0px 0px 10px black;
+    background-color: #e9d8a6;
+    color: #001219;
+    border-radius: 13px;
+    border: 3px solid orange;
+    box-shadow: 0px 0px 8px black;
+    cursor:pointer;
 }
+
 
 footer #footer{
     display: flex;
