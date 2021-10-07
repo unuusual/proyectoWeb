@@ -137,6 +137,15 @@ body{
    margin-top: 50px;
 }
 
+#cursosTodos h2{
+    color: red;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #d4a373;
+}
+
 
 
 .cursos img{
