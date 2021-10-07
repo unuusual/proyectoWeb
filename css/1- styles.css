@@ -160,18 +160,23 @@ body{
 .centrado{
     position: absolute;
     top: 85%;
-    left: 77%;
+    left: 62%;
+    right: 0;
     transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    width: 70%;
+    text-align: right;
+    padding: 5px;
 }
 
 .establecimientos .centrado{
-    background-color: #e9d8a6;
-    border: 2px solid orange;
-    color: #001219;
+    background-color: rgba(255, 255, 255, 0.691);
+    color: black;
 }
 
 .establecimientos img{
-    border: 2px solid #e9d8a6;
+    border: 3px solid #e9d8a6;
 }
 
 #iframe{
