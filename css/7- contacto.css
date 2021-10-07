@@ -48,8 +48,119 @@ body{
     
 }
 
+#cajaGrande {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#primeraCaja{
+    width: calc(50% - 10px);
+    text-align:center;
+}
+
+#segundaCaja{
+    width: calc(50% - 10px);
+    text-align: center;
+}
+
+#segundaCaja .datosDeContactoTexto{
+    margin-top: 90px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#primeraCaja .contactoTexto{
+    margin-top: 25px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
 
 
+#segundaCaja p{
+    color: white;
+    margin-top: 4px;
+}
+
+#segundaCaja #pBorder{
+    border: 2px solid white;
+    padding: 50px;
+}
+
+#segundaCaja #pBorder:hover{
+    background-color: #e9d8a6;
+    transition: 300ms;
+    border: 2px solid orange;
+}
+
+#segundaCaja #pBorder:hover p{
+    color: black;
+}
+
+#ubicacionContacto h2{
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #171717;
+    border: 2px solid #ee9b00;
+    background: #e6d6c2;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+#segundaCaja h2{
+    color: white;
+    text-decoration: underline;
+}
+
+#primeraCaja h2{
+    font-size: 21px;
+    color: white;
+}
+
+.cajitaTexto{
+    background: rgb(200, 200, 200);
+    border-radius: 12px;
+    width: 80%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 3px;
+    border: 2px solid #e9c968;
+}
+
+#textArea{
+    background: rgb(200, 200, 200);
+    border: 2px solid #e9c968;
+    border-radius: 12px;
+    width: 75%;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+#ubicacionContacto{
+    display: inline;
+    width: 100%;
+}
+
+#ubicacionContacto h2{
+    text-align: center;
+    color: #171717;
+}
+
+
+#ubicacionContacto .iframe iframe{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #e9d8a6;
+    box-shadow: 0px 0px 30px black;
+    width: 99%;
+    height: 200px;
+    margin-bottom: 30px;
+}
 
 
 footer #footer{
