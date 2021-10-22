@@ -193,7 +193,99 @@ body{
     margin-bottom: 70px;
 }
 
+#h2{
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #171717;
+    border: 2px solid #ee9b00;
+    background: #e6d6c2;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
 
+#buscarCurso{
+    display: flex;
+    justify-content: center;
+    background: #e6d6c2;
+    border: 4px solid orange;
+    margin-bottom: 25px;
+}
+
+#buscarCurso h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+#caja{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.seleccion{
+    font-size: 16px;
+    width: 1250px;
+    height: 30px;
+    background: #ced4da;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+#info .classForm{
+    display: flex;
+    justify-content: center;
+}
+
+#caja h2{
+    font-size: 15px;   
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.cajitaTexto{
+    display: flex;
+    justify-content: end;
+    width: 1250px;
+    height: 30px;
+    background: #dee2e6;
+    border-radius: 20px;
+}
+
+.cajitaTexto::placeholder{
+    text-align: center;
+}
+
+
+
+#boton{
+    display: flex;
+    justify-content: center;
+}
+
+#botoncito{
+    background: #001219;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+    cursor:pointer;
+}
+
+#botoncito:hover{
+    transition: 300ms;
+    box-shadow: 0px 0px 10px black;
+    cursor:pointer;
+}
 
 
 footer #footer{
